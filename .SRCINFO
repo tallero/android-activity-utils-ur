@@ -1,6 +1,6 @@
 pkgbase = android-activity-utils
 	pkgdesc = Android activity utilities.
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
 	pkgrel = 1
 	url = https://github.com/themartiancompany/android-activity-utils
 	arch = any
@@ -12,8 +12,8 @@ pkgbase = android-activity-utils
 	depends = android-utils
 	depends = bbrightnessctl
 	depends = touchctl
-	source = android-activity-utils-f0e2d7b4f1ab463c9b6c99ea6024374566533109.zip::https://github.com/themartiancompany/android-activity-utils/archive/f0e2d7b4f1ab463c9b6c99ea6024374566533109.zip
+	source = android-activity-utils-fd2dad9caf92a73563435bda62046be123e674ca.zip::https://github.com/themartiancompany/android-activity-utils/archive/fd2dad9caf92a73563435bda62046be123e674ca.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
-	sha256sums = 3df3662d7f0f4ea84eaee892759a7cede46f2e16eb2a1f4a8c4cdfb4af31fe00
+	sha256sums = a56362b914600006dbd3a718734216664fd1b7f0e563a5cc5308cd80078c72c5
 
 pkgname = android-activity-utils
