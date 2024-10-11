@@ -6,8 +6,8 @@
 _offline="false"
 _git="false"
 pkgname=android-activity-utils
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
-_commit="fd2dad9caf92a73563435bda62046be123e674ca"
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1
+_commit="6fc93f0082ed11339f31410556b2d454a1e49200"
 pkgrel=1
 _pkgdesc=(
   "Android activity utilities."
@@ -71,7 +71,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="a56362b914600006dbd3a718734216664fd1b7f0e563a5cc5308cd80078c72c5"
+    _sum="d945bc6d2865b132800ea6b91a0d72edfa60e50de040212c57629cc17d9621af"
   fi && \
     source+=(
       "${_tar}"
